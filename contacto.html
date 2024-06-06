@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="style2.css"> <!-- Si deseas utilizar un archivo CSS -->
+</head>
+<body>
+    <header>
+        <div class="background-image"></div>
+        <div class="header-content">          
+        <h1>Contacto</h1>        
+    </header>
+    
+    <nav>
+        <a href="index.html">Inicio</a>
+    </nav>
+    <hr>
+
+    <div class="container">
+        <main>
+            <h2>¡Contáctanos!</h2>
+            <form action="enviar.php" method="POST">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="phone">Teléfono</label>
+                <input type="phone" id="phone" name="phone" maxlength="10" required>
+
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </main>
+    </div>
+    <br><br><br><br><br>
+    <footer>
+        <hr>
+        author: Diego Fernando Valencia Lerma<br>
+        &copy; copyrigth reserved<br>
+        <a href="mailto:dvalen40@estudiante.ibero.edu.co">dvalen40@estudiante.ibero.edu.co</a>
+    
+    </footer>
+</body>
+</html>

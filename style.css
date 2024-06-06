@@ -1,0 +1,146 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #87CEEB;
+    color: #000000;
+    background: linear-gradient(to bottom, #add8e6, #87CEEB); /* Gradiente de azules para el cielo */
+}
+
+header {
+    position:relative; /* Posición relativa para que los elementos internos se posicionen correctamente */
+    height: 250px; /* Altura del encabezado */
+    text-align: center; /* Alineación a la derecha */
+    overflow: hidden; /* Oculta el contenido que se desborda del encabezado */
+}
+
+.background-image {
+    position: absolute; /* Posición absoluta para que la imagen se coloque detrás del encabezado */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(Imagenes/flat_earth_1.JPG); /* Ruta de la imagen de fondo */
+    background-size: cover; /* Cubrir todo el área del encabezado */
+    opacity: 0.5; /* Opacidad de la imagen de fondo */
+}
+
+.header-content {
+    position: relative;
+    z-index: 1;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centrar verticalmente */
+    align-items: center; /* Centrar horizontalmente */
+    height: 100%; /* Altura del encabezado */
+}
+
+
+ /* Estilos CSS para la imagen */
+ .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.imagen-container {
+    margin-bottom: 20px; /* Espacio entre la imagen y la referencia */
+}
+
+.imagen {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+ /* Estilos CSS para la imagen */
+ .img-container2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.img-container3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+/* Estilos CSS para el texto */
+.text-container {
+    font-size: 1.5em;
+    font-family: 'Lucida Sans';
+}
+
+/* Estilos CSS para el texto */
+.text-container2 {
+    font-size: 1.5em;
+    font-family: 'Lucida Sans';
+}
+
+/* Estilos CSS para el texto */
+.text-container3 {
+    font-size: 1.5em;
+    font-family: 'Lucida Sans';
+}
+
+/* Estilos CSS para el texto */
+.text-container4 {
+    font-size: 1.5em;
+    font-family: 'Lucida Sans';
+}
+
+#introduccion{
+    color: #000000;
+    margin: 0;
+}
+#teorias{
+    color: #000000;
+    margin: 0;
+}
+
+h1 {
+    font-size: 50px;
+    color: #fff;
+    margin: 0;
+}
+
+h2 {
+    font-size: 40px;
+    color: #000000;
+    margin: 0;
+    text-align: center;
+}
+
+#p1 {
+
+
+}
+
+#menu1 {
+    font-family: 'Lucida Sans';
+    text-align: center; /* Alineación a la derecha */
+    font-size: 1.5em;
+    width: 100%; /* Ocupar todo el ancho de la pantalla */
+    background-color: #8FBC8F; /* Color de fondo para el menú */
+}
+
+#menu1 a[href="contacto.html"] {
+    color: #007bff; /* Color del texto específico para el enlace "Contáctanos" */
+}
+
+footer {
+    background-color: #8B4513;
+    padding: 5px 0;
+    text-align: center;
+    position:relative;
+    bottom: 0;
+    width: 100%;
+    color: #FFFFFF;
+    background: linear-gradient(to bottom, #deb887, #8B4513);
+}
